@@ -26,6 +26,12 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script>
+    // Function to navigate to the specified URL when the <li> is clicked
+    function goToURL(url) {
+        window.open(url, '_blank');
+    }
+</script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -333,9 +339,13 @@
             <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active">
+<!--                         <li class="btn btn-sm btn-outline-primary m-1 active">
                             <a href="https://drive.google.com/file/d/1tXuz1o7B0OSMKlPRy02J4UPQcn-KscV-/view?usp=sharing" target="_blank">Illustrations</a>
-                        </li>
+                        </li> -->
+
+<li class="btn btn-sm btn-outline-primary m-1 active" onclick="goToURL('https://drive.google.com/file/d/1C0Pe3QuSOz625gckFXQtBFcQcf5NXfaV/view?usp=sharing')">
+    Embroidery
+</li>
                         <li class="btn btn-sm btn-outline-primary m-1 active">
                             <a href="https://drive.google.com/file/d/1l9y3aeusaLfqE6fnLYIz_brM_XwUTOJB/view?usp=sharing" target="_blank">Fashion Show</a>
                         </li>
